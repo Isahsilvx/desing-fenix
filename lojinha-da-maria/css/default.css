@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700&family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: #999999;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+#principal h1 {
+    color: #5D3364;
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#principal p {
+    margin-top: 10px;
+}
+
+.produto a {
+    margin-top: 10px;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 120px;
+    background-color: #BA67C8;
+}
+
+#logo img {
+    margin-top:16px;
+}
+
+#produtos h2 {
+    font-family: 'Merriweather', serif;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #3C4E58;
+}
+
+#lista-produtos {
+    display: flex;
+    margin: auto;
+}
+
+.produto { 
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.04);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.04);
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.04);
+}
+
+.produto h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 21px;
+    margin-top: 15px;
+    color: #3C4E58;
+}
+
+.produto img {
+    width: 100%;
+}
+
+.preco {
+    font-size: 1.5rem;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    width: calc(100% - 30px);
+    background-color: #BA67C8;
+    color: white;
+    padding: 15px;
+}
+
+#quem-somos {
+    margin-top: 30px;
+}
+
+#quemSomosContainer {
+    padding: 50px;
+}
+
+#imgQuemSomos {
+    width: 100%;
+}
+
+#textQuemSomos {
+    padding: 50px;
+}
+
+#textQuemSomos h3 {
+    font-family: 'Merriweather', serif;
+    color: #3C4E58;
+}
+
+#btnQuemSomos {
+    background-color: #BA67C8;
+    color: white;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+#rodape {
+    background-color: #5D3364;
+    padding: 30px;
+    padding-bottom: 100px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#rodape h4{
+    padding-bottom: 20px;
+}
+
+#colFooter1 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#colFooter1 p{
+    color: white;
+}
+
+#colFooter2 h4 {
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+#colFooter2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#colFooter3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#colFooter3 h4{
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+#colFooter3 p{
+    color: white;
+}
+
+#enviar {
+    height: 35px;
+    display: flex;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#inputTxt{
+    width: 100%;
+    padding-left: 5px;
+}
+
+#inputBtn{
+    cursor: pointer;
+    background-color: #BA67C8;
+    color: white;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+#inputTxt:focus {
+    border: none;
+}
